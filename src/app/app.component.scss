@@ -1,0 +1,129 @@
+$COLORS:(BACKGROUNDCOLOR: #f5f5f5,
+  SIDEBARBACKGROUND: #FFF);
+@import './Responsive/Responsive.scss';
+.KOLKLD {
+  background-color: map-get($COLORS, BACKGROUNDCOLOR);
+  min-height: 100vh;
+
+  .nsjkfssfd {
+    display: flex;
+
+    .Sidebar {
+      width: 300px;
+      min-height: 100vh;
+      background-color: map-get($COLORS, SIDEBARBACKGROUND);
+      overflow: auto;
+      box-shadow: 0px 0px 7px #ccc;
+      padding: 1rem;
+
+    }
+    ._DOIDOD {
+      width: 100%;
+      height: 40px;
+      border: 1px solid #ccc;
+      height: 150px;
+      top: 3rem;
+
+      .POADODO {
+        align-items: center;
+        height: 22vh;
+
+        button {
+          padding: 3px 40px;
+        }
+      }
+    }
+
+    .MOK_FPFP {
+      top: 4.3rem;
+      .JIFJFI {
+        button {
+          height: 40px;
+        }
+      }
+    }
+
+    .MKSKJFO {
+      justify-content: center;
+      margin-top: 7rem;
+      margin-left: auto;
+      margin-right: auto;
+
+      .MDKLKKDL {
+        width: 900px;
+        height: 565px;
+        background-color: map-get($COLORS, SIDEBARBACKGROUND);
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px #ccc;
+        padding: 2rem;
+
+        .NKJFK {
+          display: flex;
+          border: 1px solid #ddd;
+          height: 470px;
+          border-radius: 10px;
+
+          .LPLSFP {
+            .SLKFKF {
+              background-color: #f0f3f5;
+              height: 470px;
+              width: 495px;
+              border-top-left-radius: 10px;
+              border-bottom-left-radius: 10px;
+
+              .MPDOOPD {
+                align-items: center;
+                vertical-align: middle;
+                min-height: 20vh;
+
+                ._posdshd {
+                  flex-direction: column;
+                  align-items: center;
+                  vertical-align: middle;
+                  min-height: 65vh;
+
+                  h2 {
+                    font-size: 2rem;
+                    color: #666;
+                    font-weight: 700;
+                    letter-spacing: .5px;
+                  }
+
+                  p {
+                    text-align: center;
+                    width: 85%;
+                    color: #999;
+                    font-size: 18px;
+                    letter-spacing: .4px;
+                    line-height: 1.5;
+                    font-weight: 400;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+  background: #555;
+}
